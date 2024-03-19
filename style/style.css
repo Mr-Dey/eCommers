@@ -12,22 +12,24 @@
 
 /* header */
 header{
-    width: 100vw;
+    width: 96%;
     background-color:var(--color1);
     display: flex;
-    padding: 0px 15px;
+    padding: 0% 2%;
 }
 .logo img{
-    max-width: 5vw;
+    max-width: 100%;
 }
 .logo{
-    max-width: 5vw;
+    max-width: 5%;
 }
+
+
 .header_ul_catagory{
     display: flex;
     align-items: center;
     list-style: none;
-    width: 40vw;
+    width: 40%;
 }
 
 .catagory{
@@ -37,13 +39,14 @@ header{
     
 }
 .right{
-    margin-left: 15vw;
+    float: right;
+    /* margin-left: auto; */
 }
 #header_search{
-    width: 20vw;
+    width: 15vw;
     border: none;
     outline: none;
-    height: 5vh;
+    height: 10vh;
     padding: 0px 15px;
     border-radius: 10px;
 }
@@ -52,6 +55,10 @@ header{
     background-color:var(--color2);
     transform: translateY(-2px);
     cursor: pointer;
+    font-weight:500;
+}
+.input:hover{
+    background-color:var(--color1);
 }
 
 
