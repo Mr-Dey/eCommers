@@ -4,25 +4,25 @@
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 header{
-    max-width: 100%;
+    width: 100vw;
     background-color: blanchedalmond;
     display: flex;
 }
 .logo img{
-    max-width: 100%;
+    max-width: 5vw;
 }
 .logo{
-    max-width: 5%;
+    max-width: 5vw;
 }
 .header_ul_catagory{
     display: flex;
     align-items: center;
     list-style: none;
-    max-width: 45%;
+    max-width: 45vw;
 }
 
 .catagory{
-    padding: 0px 5px;
+    padding: 0px 10px;
 }
 .right{
     margin-left: auto;
