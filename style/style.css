@@ -4,6 +4,7 @@
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 header{
+    max-width: 100%;
     background-color: blanchedalmond;
     display: flex;
 }
@@ -17,11 +18,12 @@ header{
     display: flex;
     align-items: center;
     list-style: none;
-    gap:10%;
-    width: 20%;
+    max-width: 45%;
 }
 
+.catagory{
+    padding: 0px 5px;
+}
 .right{
-    max-width: 50%;
-    float: right;
+    margin-left: auto;
 }
