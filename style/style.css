@@ -12,6 +12,7 @@
 
 /* header */
 header{
+    height: 30vh;
     width: 96%;
     background-color:var(--color1);
     display: flex;
@@ -21,6 +22,8 @@ header{
     max-width: 100%;
 }
 .logo{
+    display: flex;
+    align-items: center;
     max-width: 5%;
 }
 
@@ -39,14 +42,22 @@ header{
     
 }
 .right{
+    width: 55%;
+    justify-content: end;
     float: right;
-    /* margin-left: auto; */
 }
+
+.right .catagory span,.catagory{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 #header_search{
     width: 15vw;
     border: none;
     outline: none;
-    height: 10vh;
+    height: 20vh;
     padding: 0px 15px;
     border-radius: 10px;
 }
