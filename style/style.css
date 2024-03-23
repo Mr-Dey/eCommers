@@ -7,16 +7,20 @@
     padding: 0%;
     margin: 0%;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2.8vh;
+    ::-webkit-scrollbar{display: none;}
 }
 
 
 /* header */
 header{
-    height: 10vh;
-    width: 96%;
+    height: 12vh;
+    width: 98%;
     background-color:var(--color1);
     display: flex;
-    padding: 0% 2%;
+    position: sticky;
+    padding: 0% 1%;
+    box-shadow:-0vh 1vh 1vh rgba(0, 0, 0, 0.575);
 }
 .logo img{
     max-width: 100%;
@@ -36,8 +40,8 @@ header{
 }
 
 .catagory{
-    padding: 10px;
-    border-radius: 20px;
+    padding: 1.5%;
+    border-radius: 5vh;
     transition:transform 250ms;
     
 }
@@ -51,15 +55,20 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+
+}
+.material-symbols-outlined{
+    font-size: 2vw;
 }
 
+
 #header_search{
-    width: 15vw;
+    width: 20vw;
     border: none;
     outline: none;
     height: 6vh;
-    padding: 0px 15px;
-    border-radius: 10px;
+    padding: 0% 5%;
+    border-radius: 2vh;
 }
 
 .catagory:hover{
@@ -72,6 +81,11 @@ header{
     background-color:var(--color1);
 }
 
-
-
+/* container */
+.container{
+    padding: 2vh;
+    height: 84vh;
+    background-color: var(--color2);
+    overflow-y: auto;
+}
 
